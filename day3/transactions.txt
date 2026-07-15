@@ -1,0 +1,5 @@
+Sabona,3000
+bona,5000
+bontuu,6000
+sorii,1000
+galataa,9000
