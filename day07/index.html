@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button{
+        color: red;
+        font-size: 23px;
+        padding: 23px;
+        border-radius: 23px;
+    }
+</style>
+<body>
+    <h1 id="name"></h1>
+    <button id="sub" onclick="sub()">subscribe</button>
+    <script>
+        let name="hell world"
+        console.log(name)
+        document.getElementById("name").innerHTML=name
+        function sub(){
+            document.getElementById("sub").innerHTML="you are subscribed"
+        }
+        document.getElementById("sub").innerHTML
+    </script>
+</body>
+</html>

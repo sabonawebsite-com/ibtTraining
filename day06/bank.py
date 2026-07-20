@@ -2,8 +2,18 @@
 class SMSAlert:
     def update(self, message):
         print(f"SMS Alert: {message}")
-
-
+accounts={
+"name":"Abdii",
+"password":"Ab234",
+"balance":2000
+}
+class Accounreg:
+    def searchAcount():
+        for aco in accounts:
+            if "name"=="Abdii":
+                print("ok")
+    def addAcount():
+        accounts.set("")
 # Base Account Class
 class Account:
     def init(self, owner, balance=0):
